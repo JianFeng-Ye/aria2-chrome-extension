@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "用 aria2 接管内置下载",
+    "version": "1.0",
+    "description": "用 aria2 接管内置下载",
+    "author": "JianFeng Ye",
+    "permissions": ["downloads", "cookies", "*://*/*"],
+    "background": {
+        //"scripts": ["js/background.js"],
+        "page": "html/background.html",
+        "persistent": false
+    }
+}
