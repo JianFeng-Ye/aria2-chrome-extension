@@ -2,11 +2,15 @@
 
 使用 aria2 接管 chrome 内置下载器
 
-使用前先修改 「js/const.js」 中的 `aria2 config`
-
 ## 截图
 
 ![screenshot](images/screenshot.jpg)
+
+## 使用方法
+
+- 下载
+- 修改 「js/const.js」 中的 `aria2 config`
+- 在 chrome 扩展程序中点击「加载已解压的程序」
 
 ## 参考
 
